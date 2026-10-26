@@ -19,7 +19,8 @@ como um fato sem número virou um fato com número, e de como contar a parte de 
 ## Entrada
 
 Um destes:
-- um número de item dos Pendentes do `nucleo.md` ("valida o 3");
+- um item dos Pendentes do `nucleo.md` ("valida o P3"). Se ela disser só "o 3", confirme que é o P3:
+  o Confirmado usa C e os Pendentes usam P;
 - "o próximo": pegue o de menor risco numérico (1 primeiro), e dentro do risco o que tem conflito;
 - um bullet solto (de CV, LinkedIn, formulário) que ela colou;
 - uma lembrança nova ("lembrei que eu também fiz X na empresa Y"), que passa pelo mesmo caminho e
@@ -67,7 +68,7 @@ Uma pergunta por vez. Curta. Espere.
 
 Pra cada item, um destes, sempre com o ok da pessoa antes de escrever:
 
-- **Sobe.** Linha nova na tabela da empresa (ou projeto) certa da Parte 1: `o que eu fiz` em "eu", um
+- **Sobe.** Linha nova na tabela da empresa (ou projeto) certa da Parte 1, com o próximo número C: `o que eu fiz` em "eu", um
   fato só · `número` (proporção ou contagem, com "estimativa" quando for) · `o que foi meu` · `como eu
   sei` · `data` de hoje. Se foi uma decisão dela com motivo e resultado, registre também em "Decisões
   que eu defendo". Remova o item dos Pendentes.
@@ -78,9 +79,12 @@ Pra cada item, um destes, sempre com o ok da pessoa antes de escrever:
 
 Atualize o "Atualizado em" do arquivo. No chat, devolva a linha como ficou e o que falta na sessão.
 
+Fale em português do Brasil, direto, sem elogio vazio. Se a pessoa escrever em inglês, responda em
+inglês; o `nucleo.md` continua em português.
+
 ## Exemplo
 
-Pendente #10: "Melhorias significativas na performance do checkout" · CV v4 · advérbio · risco 3.
+Pendente P10: "Melhorias significativas na performance do checkout" · CV v4 · advérbio · risco 3.
 
 Você: "Nas suas palavras, o que você fez no checkout?"
 Pessoa: "A página demorava muito pra carregar, eu mexi em cache e em umas queries."

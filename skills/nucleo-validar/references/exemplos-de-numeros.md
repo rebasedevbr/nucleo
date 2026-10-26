@@ -1,7 +1,8 @@
 # Exemplos de como um fato virou número
 
-Casos usados na aula do Núcleo da Rebase (2026-10-22). Mentorandos não identificados. Servem pra
-abrir o repertório: cada exemplo é um tipo de pergunta que você pode fazer.
+Casos da aula do Núcleo da Rebase (2026-10-22). Os que vieram de alguém da turma estão generalizados:
+ficou a pergunta que destravou, não a história da pessoa. Servem pra abrir o repertório: cada exemplo
+é um tipo de pergunta que você pode fazer.
 
 ## 1. Plantão sem número (exemplo fictício do guia)
 
@@ -12,33 +13,33 @@ Resultado: "Escrevi 15 runbooks em 3 meses pros alertas mais frequentes; os page
 cerca de 10 pra 2 por semana." Como eu sei: histórico do PagerDuty. O rodízio era do time; os
 runbooks foram dela.
 
-## 2. Ferramenta de web scraping "que eu mesmo fui corrigindo" (hot seat da aula)
+## 2. "Fiz errado e corrigi": a ferramenta que substituiu um fornecedor (caso da aula, generalizado)
 
-O mentorando construiu um scraper de ponta a ponta, 4 microsserviços, antidetecção, monitoramento. Dizia
-não ter métrica porque "as melhorias foram do meu próprio trabalho, fiz errado e corrigi".
+A pessoa construiu uma ferramenta interna de ponta a ponta e dizia não ter métrica porque "as melhorias
+foram do meu próprio trabalho, fiz errado e corrigi".
 
-A primeira pergunta do Fred: **como era antes?** A empresa dependia de um fornecedor de API que sumiu, e
-tinha cliente pagante esperando. Daí saíram vários números possíveis, sem inventar nenhum:
+A primeira pergunta do Fred: **como era antes?** A empresa dependia de um fornecedor externo que deixou
+de atender, e tinha cliente pagante esperando. Daí saíram vários números possíveis, sem inventar nenhum
+(os valores abaixo são ilustrativos):
 - custo de ferramenta antes (o que se pagava ao fornecedor) e depois (o que o serviço próprio custa
   pra rodar), contado como proporção se o valor for sensível;
 - o cliente que estava em risco e foi mantido (receita retida, também como proporção ou "um cliente
   que respondia por X% da receita");
-- tempo de execução da primeira versão em produção e da versão atual (40 min → 15 min);
-- frequência de atualização (rodava 10 vezes ao dia → a cada meia hora, dado em tempo quase real pro
-  cliente);
-- estabilidade: falhas por 10 execuções antes e depois (4 em 10 → 1 em 10).
+- tempo de execução da primeira versão em produção e da versão atual ("cerca de 40 min → 15 min");
+- frequência de atualização ("rodava algumas vezes ao dia → a cada meia hora");
+- estabilidade: falhas por 10 execuções antes e depois ("4 em 10 → 1 em 10").
 
 A lição: "fiz errado e corrigi" é uma versão em produção que funcionava e depois melhorou. O antes é a
 primeira versão. Só não dá pra contar se nunca foi pro ar.
 
-## 3. Security Champion sem expor a empresa (hot seat da aula)
+## 3. Número de segurança sem expor a empresa (caso da aula, generalizado)
 
-O mentorando revisava PRs em busca de problemas de segurança e auditava código existente; uma auditoria
-com IA achou 18 problemas em produção. Receio: dizer o número expõe a empresa.
+A pessoa revisava PRs em busca de problemas de segurança e auditava código existente; uma auditoria
+achou dezenas de problemas em produção. Receio: dizer o número expõe a empresa.
 
 Saídas do Fred:
-- proporção em vez de valor absoluto: "reduzi em 60% as vulnerabilidades em produção" em vez de "de 50
-  pra 18";
+- proporção em vez de valor absoluto: "reduzi em cerca de 60% as vulnerabilidades em produção" em vez
+  do número exato;
 - medir antes da produção: "a cada 20 PRs, 2 traziam problema de segurança; depois da checagem,
   nenhum";
 - se existe um incidente público da empresa, ele pode ser âncora ("depois do processo, nunca mais houve

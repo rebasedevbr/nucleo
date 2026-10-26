@@ -40,7 +40,8 @@ O template está em `assets/template-nucleo.md`.
 - **Resposta longa ou por voz:** deixe a pessoa falar tudo, depois devolva a lista de itens que você
   entendeu e confirme antes de escrever. Nada entra no arquivo sem ela ver.
 - **Salve ao fim de cada bloco.** Sessão pode cair; o guia prevê quebrar a montagem em 2 sessões.
-- Fale em português do Brasil, direto e sóbrio, sem promessa e sem elogio vazio. Sem travessão.
+- Fale em português do Brasil, direto e sóbrio, sem promessa e sem elogio vazio. Sem travessão. Se a
+  pessoa escrever em inglês, responda em inglês; o `nucleo.md` continua em português.
 
 ## Passo 0 · Onde o Núcleo mora
 
@@ -70,7 +71,7 @@ Preencha a tabela e mostre.
 
 Pergunte o que ela tem: CVs (inclusive antigos e os que dão vergonha), LinkedIn, GitHub, site, formulários
 guardados, respostas de entrevista anotadas, texto que a IA escreveu. Dê um nome curto pra cada fonte
-("CV Nubank 03/2026", "LinkedIn") e registre todas nas Referências.
+("CV Empresa X 03/2026", "LinkedIn") e registre todas nas Referências.
 
 Se ela tiver os arquivos à mão e a skill `nucleo-pendentes` estiver instalada, rode-a agora: ela extrai
 as afirmações, marca e joga tudo nos Pendentes. Sem a skill, faça o mesmo seguindo a seção 6 do guia
@@ -89,13 +90,14 @@ Comece pela experiência mais recente:
 2. "O que você fez lá que mais importou?" Deixe contar. Separe em itens atômicos.
 3. Pra cada item: "foi você ou a gente?", depois as 6 perguntas até sair o número, depois "como você
    sabe?" (de onde vem o número: dashboard, PRs, planilha, histórico do PagerDuty, estimativa).
-4. Escreva a linha e leia de volta. Só entra com o ok dela.
+4. Escreva a linha, numerada C1, C2, C3 (a numeração segue entre empresas e projetos, sem
+   recomeçar), e leia de volta. Só entra com o ok dela.
 5. Travou no número: vira Pendente como pergunta, com a pista de onde achar.
 
 Repita com a segunda experiência mais recente. As antigas ficam pra outra semana; diga isso. Meta
 mínima: 5 itens confirmados das 2 experiências mais recentes.
 
-Depois, três blocos curtos:
+Depois, quatro blocos curtos:
 - **Projetos à parte:** projeto paralelo, open source, ferramenta própria que ajuda no alvo. Mesma
   estrutura. Só se existir e for relevante pro cargo que ela busca.
 - **Decisões que eu defendo:** "alguma decisão técnica que foi sua e você defenderia hoje? por quê,
@@ -113,7 +115,8 @@ sessão. Salve antes.
 Se há Pendentes, pergunte: "quais desses CVs você já mandou, e tem processo aberto?" O que está em CV
 enviado é risco 1 (pode virar pergunta semana que vem). O que se repete em muitos CVs é risco 2
 (repetição costuma ser cópia, não prova). O resto é 3. Reordene e garanta que a coluna "o que falta"
-está escrita como pergunta.
+está escrita como pergunta. Pendentes são P1, P2, P3; Confirmado é C1, C2, C3. Cite sempre com o
+prefixo, nunca só "o 4".
 
 ## Passo 5 · Referências e checklist (10 min)
 

@@ -1,5 +1,6 @@
 # Meu Núcleo · <seu nome>
 Atualizado em: <data>
+Numeração: Confirmado é C1, C2, C3 (segue entre empresas e projetos); Pendentes é P1, P2, P3. Cite sempre com o prefixo.
 
 ## Quem sou
 | campo | resposta | data |
@@ -30,10 +31,10 @@ Fonte única de datas e cargos. Quando outra fonte (blog, LinkedIn, CV antigo) d
 Empresa: ____ · cargo: ____ · período (mês/ano a mês/ano): ____
 | # | o que eu fiz (eu, não "a gente") | número (proporção ou contagem) | o que foi meu | como eu sei | data |
 |---|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-(repita a tabela pra cada empresa, da mais recente pra mais antiga)
+| C1 | | | | | |
+| C2 | | | | | |
+| C3 | | | | | |
+(repita a tabela pra cada empresa, da mais recente pra mais antiga; a numeração C continua, sem recomeçar)
 
 ### Projetos à parte
 Projeto paralelo, open source, ferramenta própria. Mesma estrutura da experiência.
@@ -61,7 +62,7 @@ Projeto: ____ · papel: ____ · período: ____
 O que está escrito em algum lugar e eu ainda não validei. Não vai pra fora até eu validar.
 | # | afirmação | fonte | marca (conflito / só numa fonte / número absoluto / advérbio / bate) | risco (1 já enviado / 2 repete muito / 3 resto) | o que falta (como pergunta) |
 |---|---|---|---|---|---|
-| 1 | | | | | |
+| P1 | | | | | |
 
 (as linhas vazias são só modelo: substitua, não acrescente embaixo)
 

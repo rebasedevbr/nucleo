@@ -15,13 +15,16 @@ melhore, não resuma, não sugira frase nova, não arredonde número, não compl
 
 ## Entrada
 
-- Arquivos (PDF, DOCX, MD, TXT, export do LinkedIn) ou texto colado. Leia cada um inteiro.
-- Cada fonte recebe um nome curto ("CV Nubank 03/2026", "CV genérico v2", "LinkedIn", "resumo IA
+- Arquivos (PDF, MD, TXT, export do LinkedIn) ou texto colado. Leia cada um inteiro. Formato que você
+  não consegue ler (DOCX costuma falhar): peça pra ela exportar em PDF ou colar o texto. Nunca
+  adivinhe o conteúdo de um arquivo que não abriu.
+- Cada fonte recebe um nome curto ("CV Empresa X 03/2026", "CV genérico v2", "LinkedIn", "resumo IA
   08/2026"). Se a pessoa não deu nome, proponha um a partir do arquivo e siga; ela corrige se quiser.
 - Telefone, endereço e email: ignore. Não fazem falta e não vão pro Núcleo. Cidade não é endereço:
   entra, porque alimenta o "Quem sou" (cidade e fuso).
 - Fontes em idiomas diferentes: escreva a afirmação em português e mantenha a palavra original entre
-  aspas quando ela for o que está em jogo ("led" / "liderei", "garantimos").
+  aspas quando ela for o que está em jogo ("led" / "liderei", "garantimos"). Se a pessoa escrever
+  em inglês, responda em inglês; a tabela continua em português.
 - Pergunte, antes de começar, só isto: "algum desses CVs já foi enviado pra uma vaga, e tem processo
   aberto?" A resposta define o risco.
 
@@ -68,8 +71,10 @@ Tabela no formato da Parte 2 do Núcleo:
 
 | # | afirmação | fonte | marca | risco | o que falta |
 
+Numere P1, P2, P3 (o Confirmado usa C1, C2, C3; o prefixo evita citar o item errado numa candidatura).
+
 - Se há `nucleo.md`: acrescente as linhas na Parte 2 (as linhas vazias do template são modelo:
-  substitua; se já há itens, continue a numeração), registre cada fonte na Parte 3 (Referências) com
+  substitua; se já há itens, continue a numeração P), registre cada fonte na Parte 3 (Referências) com
   nome curto, link ou caminho, se foi enviada e pra onde (ou "nunca enviado") e a data de hoje, e
   atualize o "Atualizado em". Nada entra na Parte 1.
 - Devolva no chat o total de itens, quantos conflitos e quantos "só numa fonte", e as 3 ou 4 linhas
@@ -86,4 +91,4 @@ Fonte "LinkedIn": "Tech Lead · time de 12."
 
 | # | afirmação | fonte | marca | risco | o que falta |
 |---|---|---|---|---|---|
-| 1 | liderou time de 6 / 12 / 12 na plataforma de pagamentos | CV v1, CV v3, LinkedIn | conflito | 1 (CV v3 enviado, processo aberto) | Foram 6 ou 12? Os 12 foram só durante o projeto de antifraude? Por quanto tempo cada número? |
+| P1 | liderou time de 6 / 12 / 12 na plataforma de pagamentos | CV v1, CV v3, LinkedIn | conflito | 1 (CV v3 enviado, processo aberto) | Foram 6 ou 12? Os 12 foram só durante o projeto de antifraude? Por quanto tempo cada número? |

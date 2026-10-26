@@ -14,16 +14,33 @@ palavras, número só quando você sustenta, e quem decide o que é verdade é v
 ## Instalar
 
 As skills são pastas com um `SKILL.md`. Funcionam no Claude Code e em qualquer agente que leia
-esse formato (Codex, por exemplo).
+esse formato.
 
-1. Crie uma pasta pro seu Núcleo, por exemplo `~/meu-nucleo/`, e coloque os seus CVs, o PDF do
+1. Clone o repositório (é público, não precisa de convite):
+
+   ```bash
+   git clone https://github.com/rebasedevbr/nucleo.git
+   ```
+
+2. Crie uma pasta pro seu Núcleo, por exemplo `~/meu-nucleo/`, e coloque os seus CVs, o PDF do
    LinkedIn e o que mais tiver numa subpasta `fontes/`.
-2. Copie as 4 pastas de `skills/` pra `~/meu-nucleo/.claude/skills/` (só nesse projeto) ou pra
-   `~/.claude/skills/` (em qualquer pasta).
-3. Abra o Claude Code dentro de `~/meu-nucleo/` e chame `/nucleo-montar`.
+3. Copie as 4 pastas de `skills/` pra `~/meu-nucleo/.claude/skills/` (só nesse projeto) ou pra
+   `~/.claude/skills/` (em qualquer pasta):
+
+   ```bash
+   mkdir -p ~/meu-nucleo/.claude/skills
+   cp -R nucleo/skills/* ~/meu-nucleo/.claude/skills/
+   ```
+
+4. Abra o Claude Code dentro de `~/meu-nucleo/` e chame `/nucleo-montar`.
 
 O Núcleo fica em `~/meu-nucleo/nucleo.md`. Quando for entregar, cole o conteúdo no Notion ou num
 Google Doc e mande o link por DM pro Fred e pro Gabs. No canal da turma não: é coisa pessoal sua.
+
+**Privacidade.** O `nucleo.md` guarda a sua pretensão salarial, a sua carreira inteira e, nas fontes,
+os seus CVs. Essa pasta nunca vira repositório público: se quiser versionar, repositório privado, e
+nada de subir junto com código de trabalho. Se preferir trabalhar dentro do clone deste repositório,
+o `.gitignore` dele já ignora `nucleo.md` e `fontes/`.
 
 **Usa ChatGPT, ou o Claude no navegador?** A pasta `chatgpt/` tem as mesmas 4 skills num texto só de
 instruções pra um Projeto, e o passo a passo pra montar. O seu documento no Notion ou Google Doc

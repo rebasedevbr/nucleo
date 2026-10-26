@@ -123,7 +123,7 @@ Junte tudo que você já escreveu sobre a sua carreira, num lugar só:
 - respostas de entrevista que você anotou;
 - qualquer texto que a IA te ajudou a escrever.
 
-Liste cada fonte nas Referências, com o link, e dê um nome curto pra cada uma ("CV Nubank 03/2026", "CV genérico v2", "LinkedIn"). Você vai usar esse nome na coluna de fonte.
+Liste cada fonte nas Referências, com o link, e dê um nome curto pra cada uma ("CV Empresa X 03/2026", "CV genérico v2", "LinkedIn"). Você vai usar esse nome na coluna de fonte.
 
 No caso do Fred foram 14 CVs, um dossiê de carreira, páginas de entrevista e o site. Quanto mais fontes, mais conflito aparece, e conflito é exatamente o que você quer achar agora, em casa.
 
@@ -146,6 +146,8 @@ Em cada afirmação, procure 3 marcas:
 | número absoluto | receita, custo, salário, preço de cliente | separe e, por padrão, não use |
 
 Vale anotar uma 4ª, informal: advérbio onde devia ter número ("significativamente", "melhorias de performance"). É o erro 01 da aula 1, e cada um vira uma pergunta da seção 4.
+
+E uma 5ª, pra não sobrar afirmação sem marca: **bate**, a afirmação é igual em todas as fontes e não tem número absoluto nem advérbio. Ela continua nos Pendentes: bater entre cópias não prova nada.
 
 Por padrão, tudo que saiu daqui vai pros Pendentes, mesmo o que parece certo.
 
@@ -252,9 +254,10 @@ A sua tarefa é só listar o que está escrito. Não reescreva, não melhore, n�
    - CONFLITO: as fontes dizem coisas diferentes sobre o mesmo fato (mostre as versões lado a lado);
    - SÓ NUMA FONTE: aparece em uma fonte só;
    - NÚMERO ABSOLUTO: valor de receita, custo, salário ou preço de cliente;
-   - ADVÉRBIO: resultado sem número ("significativamente", "melhorias", "reduzindo muito").
-4. Devolva uma tabela com as colunas: # | afirmação | fontes | marcas | pergunta que eu preciso
-   responder pra validar.
+   - ADVÉRBIO: resultado sem número ("significativamente", "melhorias", "reduzindo muito");
+   - BATE: igual em todas as fontes, sem número absoluto nem advérbio.
+4. Devolva uma tabela com as colunas: # (numere P1, P2, P3) | afirmação | fontes | marcas | pergunta que eu
+   preciso responder pra validar.
 5. Ordene: primeiro as que têm CONFLITO ou SÓ NUMA FONTE, depois as que aparecem em mais fontes.
 Não invente número, não arredonde, não complete o que falta. Se não der pra saber, escreva "não sei".
 Você não decide o que é verdade. Quem decide sou eu.
@@ -295,6 +298,8 @@ Os itens dos Pendentes que a vaga pede são os primeiros que você valida naquel
 
 O template está em `assets/template-nucleo.md`, nesta skill. Abaixo, o mesmo template preenchido.
 
+Numeração: os itens do Confirmado são C1, C2, C3 (a conta segue entre empresas e projetos, sem recomeçar) e os Pendentes são P1, P2, P3. Cite sempre com o prefixo: "o item 4" existe nas duas listas, e numa candidatura o errado pode ir pra fora.
+
 ### O mesmo template preenchido (exemplo fictício)
 
 O Rafael não existe. Ele é um dev backend sênior brasileiro montado pra mostrar a granularidade certa, as marcas e o risco. Números, empresas e datas são inventados.
@@ -322,19 +327,19 @@ Empresa: Contafy (fintech de pagamentos, fictícia) · cargo: Senior Backend Eng
 
 | # | o que eu fiz | número | o que foi meu | como eu sei | data |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Liderei o time de conciliação, de 6 devs, por 14 meses | 6 pessoas, 14 meses | tech lead do time, sem reporte direto | organograma e a descrição do cargo | 16/10/2026 |
-| 2 | Reduzi o deploy do monolito de 25 min pra 4 min | 25 → 4 min | escrevi o pipeline novo no GitHub Actions, com cache de build | média de 30 dias antes e depois no Actions | 16/10/2026 |
-| 3 | Usei Kafka em produção por 2 anos, nos consumidores de eventos de pagamento | 2 anos | escrevi e mantive 4 dos consumidores | repositório e PRs | 16/10/2026 |
-| 4 | Fiquei no rodízio de on-call 1 semana a cada 6, por 2 anos | 1 a cada 6, 2 anos | plantonista, como o resto do time | escala no PagerDuty | 16/10/2026 |
-| 5 | Escrevi 15 runbooks; os pages noturnos caíram de cerca de 10 pra 2 por semana | 10 → 2 por semana, estimativa | os runbooks; o rodízio era do time | histórico do PagerDuty | 16/10/2026 |
-| 6 | Migrei 3 serviços de MySQL 5.7 pra Postgres 15 sem parar o checkout | 3 serviços, 0 janela de manutenção | desenhei a migração com dupla escrita e toquei 2 dos 3 | PRs e o doc de design | 16/10/2026 |
-| 7 | Revisei cerca de 15 PRs por semana do time | cerca de 15 por semana, estimativa | revisão de código | contagem aproximada pelo GitHub | 16/10/2026 |
+| C1 | Liderei o time de conciliação, de 6 devs, por 14 meses | 6 pessoas, 14 meses | tech lead do time, sem reporte direto | organograma e a descrição do cargo | 16/10/2026 |
+| C2 | Reduzi o deploy do monolito de 25 min pra 4 min | 25 → 4 min | escrevi o pipeline novo no GitHub Actions, com cache de build | média de 30 dias antes e depois no Actions | 16/10/2026 |
+| C3 | Usei Kafka em produção por 2 anos, nos consumidores de eventos de pagamento | 2 anos | escrevi e mantive 4 dos consumidores | repositório e PRs | 16/10/2026 |
+| C4 | Fiquei no rodízio de on-call 1 semana a cada 6, por 2 anos | 1 a cada 6, 2 anos | plantonista, como o resto do time | escala no PagerDuty | 16/10/2026 |
+| C5 | Escrevi 15 runbooks; os pages noturnos caíram de cerca de 10 pra 2 por semana | 10 → 2 por semana, estimativa | os runbooks; o rodízio era do time | histórico do PagerDuty | 16/10/2026 |
+| C6 | Migrei 3 serviços de MySQL 5.7 pra Postgres 15 sem parar o checkout | 3 serviços, 0 janela de manutenção | desenhei a migração com dupla escrita e toquei 2 dos 3 | PRs e o doc de design | 16/10/2026 |
+| C7 | Revisei cerca de 15 PRs por semana do time | cerca de 15 por semana, estimativa | revisão de código | contagem aproximada pelo GitHub | 16/10/2026 |
 
 Empresa: Lojão Digital (e-commerce, fictícia) · cargo: Backend Engineer · período: 01/2019 a 02/2022
 
 | # | o que eu fiz | número | o que foi meu | como eu sei | data |
 | --- | --- | --- | --- | --- | --- |
-| 8 | Entrevistei 22 candidatos na etapa técnica em 2021; 5 foram contratados | 22 e 5 | entrevistador técnico, sem decisão final | minha planilha de entrevistas | 16/10/2026 |
+| C8 | Entrevistei 22 candidatos na etapa técnica em 2021; 5 foram contratados | 22 e 5 | entrevistador técnico, sem decisão final | minha planilha de entrevistas | 16/10/2026 |
 
 **Decisões que eu defendo**
 
@@ -360,16 +365,16 @@ Empresa: Lojão Digital (e-commerce, fictícia) · cargo: Backend Engineer · pe
 
 | # | afirmação | fonte | marca | risco | o que falta |
 | --- | --- | --- | --- | --- | --- |
-| 1 | "Reduzi a latência da API em 70%" | CV enviado pra vaga da Acme em 09/2026 (processo aberto) | só numa fonte | 1 | De onde veio o 70%? Qual endpoint, qual percentil? Se não achar, trocar por "cerca de" com antes e depois |
-| 2 | "Liderei time de 12 engenheiros" | CV v3 e LinkedIn | conflito (CV v1 diz 6) | 1 | Os 12 foram só nas 3 semanas do projeto com o squad de antifraude? |
-| 3 | "Reduzi o custo de AWS em 30%" | CV reescrito com IA em 08/2026 | só numa fonte | 1 | Fui eu ou o time de plataforma? Tenho o antes e depois? |
-| 4 | "Arquitetei a plataforma de pagamentos" | 4 CVs | repete muito | 2 | Arquitetei sozinho ou participei? Quem decidiu? |
-| 5 | "Inglês fluente" | LinkedIn e 3 CVs | repete muito, conflito com o B2 do "Quem sou" | 2 | Trocar pelo nível e pela evidência |
-| 6 | "Kubernetes" na lista de skills | todos os CVs | repete muito | 2 | Uso kubectl e leio manifest; isso é skill de CV? |
-| 7 | "Processei R$ 40 milhões por mês" | CV v2 | número absoluto | 2 | Trocar por contagem: quantas transações por dia? |
-| 8 | "Garanti 99,99% de disponibilidade" | resumo de carreira gerado com IA | só numa fonte | 3 | Era o SLO ou o medido? Quem garantia era o time inteiro |
-| 9 | "Mentorei 5 devs júnior" | CV v1 | conflito (CV v4 diz 3) | 3 | Quantos foram mentoria de verdade, com encontro recorrente? |
-| 10 | "Melhorias significativas na performance do checkout" | CV v4 | advérbio | 3 | Quanto? Comparado com o quê? Perguntar pro ex-colega do time de front |
+| P1 | "Reduzi a latência da API em 70%" | CV enviado pra vaga da Acme em 09/2026 (processo aberto) | só numa fonte | 1 | De onde veio o 70%? Qual endpoint, qual percentil? Se não achar, trocar por "cerca de" com antes e depois |
+| P2 | "Liderei time de 12 engenheiros" | CV v3 e LinkedIn | conflito (CV v1 diz 6) | 1 | Os 12 foram só nas 3 semanas do projeto com o squad de antifraude? |
+| P3 | "Reduzi o custo de AWS em 30%" | CV reescrito com IA em 08/2026 | só numa fonte | 1 | Fui eu ou o time de plataforma? Tenho o antes e depois? |
+| P4 | "Arquitetei a plataforma de pagamentos" | 4 CVs | repete muito | 2 | Arquitetei sozinho ou participei? Quem decidiu? |
+| P5 | "Inglês fluente" | LinkedIn e 3 CVs | repete muito, conflito com o B2 do "Quem sou" | 2 | Trocar pelo nível e pela evidência |
+| P6 | "Kubernetes" na lista de skills | todos os CVs | repete muito | 2 | Uso kubectl e leio manifest; isso é skill de CV? |
+| P7 | "Processei R$ 40 milhões por mês" | CV v2 | número absoluto | 2 | Trocar por contagem: quantas transações por dia? |
+| P8 | "Garanti 99,99% de disponibilidade" | resumo de carreira gerado com IA | só numa fonte | 3 | Era o SLO ou o medido? Quem garantia era o time inteiro |
+| P9 | "Mentorei 5 devs júnior" | CV v1 | conflito (CV v4 diz 3) | 3 | Quantos foram mentoria de verdade, com encontro recorrente? |
+| P10 | "Melhorias significativas na performance do checkout" | CV v4 | advérbio | 3 | Quanto? Comparado com o quê? Perguntar pro ex-colega do time de front |
 
 #### Parte 3 · Referências
 

@@ -21,7 +21,7 @@ O ChatGPT não guarda o seu Núcleo entre conversas. O jeito que funciona:
 
 - O Núcleo mora no seu Notion ou Google Doc. No começo de cada conversa, cole o documento (ou
   anexe o `.md`).
-- Peça pelo modo: "quero montar meu núcleo", "extrai os pendentes desses CVs", "valida o item 3",
+- Peça pelo modo: "quero montar meu núcleo", "extrai os pendentes desses CVs", "valida o P3",
   "compara essa vaga com meu núcleo".
 - Ao fim de cada bloco ele devolve a seção alterada em markdown, e diz qual seção substituir no seu
   documento. Você cola. Nada entra sem você ver.

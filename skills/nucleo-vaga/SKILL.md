@@ -13,6 +13,9 @@ Regra de ouro: **só o Confirmado é evidência**, e o "Quem sou" conta como Con
 fuso, contrato, pretensão, anos). Item dos Pendentes vira pergunta pra pessoa, nunca afirmação. Lacuna
 não se cobre com experiência "parecida". Nada do Núcleo é reescrito.
 
+Item do Confirmado é C1, C2, C3; item dos Pendentes é P1, P2, P3. Cite sempre com o prefixo: "o 4"
+existe nas duas listas, e citar o errado numa candidatura é o erro que o Núcleo existe pra evitar.
+
 ## Entrada
 
 - A vaga: texto colado, ou link. Se for link e você consegue abrir, leia a página inteira (requisitos,
@@ -27,7 +30,7 @@ não se cobre com experiência "parecida". Nada do Núcleo é reescrito.
    (o "what you will do" filtra tanto quanto o "must have"). Inclua os implícitos (fuso, país,
    modelo de contrato, nível de inglês, senioridade).
 2. **Pra cada requisito, onde ele está no Núcleo:**
-   - no **Confirmado**: cite o número do item e a empresa; anos de experiência se provam pela linha
+   - no **Confirmado**: cite o item (C1, C2) e a empresa; anos de experiência se provam pela linha
      do tempo ou pelos períodos das empresas; stack, inglês, fuso e contrato, pelo "Quem sou";
    - **Confirmado, em parte**: o fato existe, mas sem o número que o anúncio pede ("Postgres at
      scale" com Postgres em produção e nenhum volume). Cite o item e aponte o Pendente ou a pergunta
@@ -53,9 +56,9 @@ não se cobre com experiência "parecida". Nada do Núcleo é reescrito.
 Formulário longo depois de uma tarde adaptando CV é onde muita candidatura morre. Com o Núcleo dá pra
 rascunhar rápido:
 - responda cada pergunta do formulário usando **só itens do Confirmado**, citando o número do item
-  usado;
+  usado (C1, C2);
 - em "eu", com as palavras dela, no idioma do formulário;
-- pergunta que só tem resposta num Pendente: deixe a resposta em branco e escreva "valide o #N antes";
+- pergunta que só tem resposta num Pendente: deixe a resposta em branco e escreva "valide o P<n> antes";
 - pergunta sobre algo que está em "Lacunas que eu assumo": responda com a lacuna, sem enfeitar;
 - pergunta de motivação ("why us?"): não tem item que responda sozinho. Use o que o anúncio e o
   Núcleo têm em comum (os itens do topo do CV e "o que eu valorizo") e deixe claro que o motivo
@@ -70,24 +73,25 @@ Fit com "Quem sou": <bate / atenção: ...>
 
 | requisito (palavras do anúncio) | tipo | no Núcleo | item |
 |---|---|---|---|
-| ... | obrigatório | Confirmado | #2 Contafy |
-| ... | obrigatório | Pendente | #3: fui eu ou o time? |
-| ... | responsabilidade | Confirmado, em parte | #6 Contafy; falta o volume (ver Pendente #7) |
+| ... | obrigatório | Confirmado | C2 Contafy |
+| ... | obrigatório | Pendente | P3: fui eu ou o time? |
+| ... | responsabilidade | Confirmado, em parte | C6 Contafy; falta o volume (ver P7) |
 | ... | desejável | lacuna | já assumida em Lacunas |
 
 Topo do CV pra esta vaga:
-- #2: <por quê, uma frase>
-- #6: ...
+- C2: <por quê, uma frase>
+- C6: ...
 
 Validar nesta semana (ordem de risco):
-- #3 (risco 1): <o que a vaga toca e o que falta>
-- #1 (risco 1): ...
+- P3 (risco 1): <o que a vaga toca e o que falta>
+- P1 (risco 1): ...
 
 Lacunas reais:
 - <requisito>: <já assumida em Lacunas / nova: existe fato pra validar?>
 ```
 
-Fale em português do Brasil, direto, sem promessa de resultado. Não diga "você tem grandes chances"
+Fale em português do Brasil, direto, sem promessa de resultado (se a pessoa escrever em inglês,
+responda em inglês; o Núcleo continua em português). Não diga "você tem grandes chances"
 nem "a vaga é perfeita": diga o que bate, o que falta e o que fazer.
 
 ## Exemplo curto
@@ -99,7 +103,7 @@ Núcleo do Rafael (exemplo fictício do guia): Java, Kafka, Postgres, AWS no Con
 ou Go em lugar nenhum; "Kubernetes" nos Pendentes; UTC-3 em "Quem sou".
 
 Saída: fuso bate; Python ou Go é lacuna real (dizer, não contornar com "linguagens parecidas");
-sistemas distribuídos tem evidência no #3 (Kafka em produção por 2 anos) e no #6 (migração com dupla
+sistemas distribuídos tem evidência no C3 (Kafka em produção por 2 anos) e no C6 (migração com dupla
 escrita); automação de testes não aparece no Núcleo: perguntar se existe fato pra validar; topo do CV:
-#3, #6, #2. Validar nesta semana: nenhum Pendente tocado pela vaga além do Kubernetes (#6), que só
+C3, C6, C2. Validar nesta semana: nenhum Pendente tocado pela vaga além do Kubernetes (P6), que só
 importa se o anúncio citar.
